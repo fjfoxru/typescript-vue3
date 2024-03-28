@@ -9,7 +9,6 @@ export default defineConfig({
   base: "/typescript-vue3/",
   plugins: [
     vue(),
-    VueDevTools(),
     VitePWA(),
   ],
   resolve: {

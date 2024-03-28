@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "vite-plugin-pwa": "^0.19.7",
     "vue": "^3.4.21"
   },

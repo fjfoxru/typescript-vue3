@@ -1,6 +1,6 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/sw-toolbox.js", "src/sw.js"],
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "public/sw-toolbox.js", "src/sw.js", "public/icons/*"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "composite": true,

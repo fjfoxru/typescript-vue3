@@ -1,4 +1,4 @@
-import { fileURLToPath, URL } from 'node:url'
+import { fileURLToPath, URL } from 'url'
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
@@ -9,7 +9,6 @@ export default defineConfig({
   base: "/typescript-vue3/",
   plugins: [
     vue(),
-    VueDevTools(),
   ],
   resolve: {
     alias: {

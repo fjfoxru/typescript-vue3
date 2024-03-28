@@ -26,7 +26,8 @@ const handlerAdd = (): void => {
     status: status.value
   })
 
-  let tg:any = window.Telegram.WebApp;
+
+  const tg:Window = window.Telegram.WebApp;
   const data = JSON.stringify(tasks);
   tg.sendData(data);
   tg.close();

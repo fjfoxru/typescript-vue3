@@ -9,31 +9,31 @@
     "display": "standalone",
     "icons": [
       {
-          "src": "/assets/icon1.png",
+          "src": "/typescript-vue3/assets/icon1.png",
           "sizes": "192x192",
           "type": "image/png",
           "purpose": "any"
       },
       {
-          "src": "/assets/icon.png",
+          "src": "/typescript-vue3/assets/icon.png",
           "sizes": "256x256",
           "type": "image/png",
           "purpose": "any"
       },
       {
-          "src": "/assets/icon3.png",
+          "src": "/typescript-vue3/assets/icon3.png",
           "sizes": "144x144",
           "type": "image/png",
           "purpose": "any"
       },
       {
-          "src": "/assets/icon2.png",
+          "src": "/typescript-vue3/assets/icon2.png",
           "sizes": "512x512",
           "type": "image/png",
           "purpose": "any"
       },
       {
-        "src": "/assets/icon2.png",
+        "src": "/typescript-vue3/assets/icon2.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
